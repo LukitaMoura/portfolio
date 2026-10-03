@@ -3,11 +3,11 @@ import { Secao } from './ui';
 
 // Trajetória resumida (mais recente primeiro). Fonte: currículo.
 const TRAJETORIA = [
-  ['abr/2026 – atual', 'Desenvolvedor Full Stack', 'IoT Tecnologia', 'Cargo formal: Analista de RPA. Projeto, desenvolvo e mantenho os 5 sistemas web internos deste portfólio, sozinho, do banco ao deploy.'],
+  ['abr/2026 – atual', 'Analista de RPA', 'IoT Tecnologia', 'Projeto, desenvolvo e mantenho os 5 sistemas web internos deste portfólio, sozinho, do banco ao deploy.'],
   ['mai/2025 – abr/2026', 'Supervisor de Equipe Técnica', 'Minuta Comunicação', 'Supervisão das equipes técnicas de infraestrutura de eventos e produções.'],
   ['ago/2024 – mai/2025', 'Analista de Planejamento', 'Pronex do Brasil', 'Relatórios de vendas automatizados com Power BI, Python e SQL; funil comercial, previsão de receita e apoio à implantação do Oracle NetSuite.'],
   ['mai/2023 – ago/2024', 'Supervisor de Operações', 'Pessoalize', 'KPIs e dashboards no Zendesk, dimensionamento de equipe e análise de qualidade.'],
-  ['2019 – 2023', 'Atendimento e produção técnica', 'Indra · CCBB', 'Suporte a clientes prioritários e produção técnica audiovisual de eventos.'],
+  ['out/2021 – abr/2023', 'Técnico Audiovisual', 'CCBB', 'Produção técnica audiovisual de eventos: registro em foto e vídeo, edição e operação de áudio.'],
 ];
 
 export default function Sobre() {
@@ -16,7 +16,7 @@ export default function Sobre() {
       id="sobre"
       eyebrow="Sobre"
       titulo="Da operação ao código"
-      descricao="Passei por atendimento, operações e planejamento antes de programar. Por isso começo pelo problema do usuário, e não pela tecnologia: os sistemas que construo substituem planilhas e processos que eu mesmo já precisei operar."
+      descricao="Passei por produção audiovisual, operações e planejamento antes de programar. Por isso começo pelo problema do usuário, e não pela tecnologia: os sistemas que construo substituem planilhas e processos que eu mesmo já precisei operar."
     >
       <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <ol className="relative space-y-8 border-l-2 border-slate-200 pl-6">
