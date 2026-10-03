@@ -7,7 +7,7 @@ export default function Footer() {
         {perfil.nome} · {new Date().getFullYear()} · Feito com React, Vite e Tailwind
       </p>
       <p className="mt-1">
-        Os sistemas internos aparecem anonimizados: sem nome de empresa, clientes, pessoas ou dados reais.
+        Os sistemas internos são descritos sem dados reais e sem nomes de clientes ou de pessoas; o código deles não é público.
       </p>
     </footer>
   );
